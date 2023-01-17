@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <div>
         <header>
-          <Link to="/"> Shop City </Link>
+          <Link to="/"> Shop City 🛍️</Link>
         </header>
         <main>
           <Routes>
