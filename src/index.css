@@ -33,6 +33,10 @@ header a{
   justify-content: center;
 }
 
+.btn-primary{
+  background-color: #f0c040;
+  color: black;
+}
 .product{
   border: 1px solid black;
   margin: 1rem;
@@ -40,7 +44,7 @@ header a{
 
 .product img 
 {
-  height: 400px;
+  max-height: 400px;
   width: 100%;
   max-width: 350px;
   object-fit: cover;
