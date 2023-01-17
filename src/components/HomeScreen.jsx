@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import data from "../data";
+import CarouselSlide from "./Carasoul";
 
 const HomeScreen = () => {
   return (
     <div>
+      <CarouselSlide />
       <h1> Featured Products </h1>
       <div className="products">
         {data.products.map((product) => (
