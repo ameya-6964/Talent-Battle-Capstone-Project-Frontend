@@ -16,7 +16,7 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto md:mx-5 ">
-              <LinkContainer to="/">
+              <LinkContainer to="/TopWear">
                 <Nav.Link>Top Wear</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/">
@@ -27,9 +27,6 @@ const Navigation = () => {
               </LinkContainer>
               <LinkContainer to="/">
                 <Nav.Link>Sports</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/">
-                <Nav.Link>Electronics</Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>

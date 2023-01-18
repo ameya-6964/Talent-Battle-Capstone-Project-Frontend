@@ -1,11 +1,11 @@
 //! HomeScreen Component
 import React from "react";
 import data from "../data";
-import CarouselSlide from "./Carasoul";
+import CarouselSlide from "../components/Carasoul";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Product from "./Product";
-import Content from "./Content";
+import Product from "../components/Product";
+import Content from "../components/Content";
 
 const HomeScreen = () => {
   return (
