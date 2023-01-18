@@ -15,12 +15,15 @@ const Navigation = () => {
           </LinkContainer>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto md:mx-5 ">
               <LinkContainer to="/">
                 <Nav.Link>Top Wear</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/">
                 <Nav.Link>Bottom Wear</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/">
+                <Nav.Link>Foot Wear</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/">
                 <Nav.Link>Sports</Nav.Link>
