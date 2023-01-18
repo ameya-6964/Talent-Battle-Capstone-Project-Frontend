@@ -1,5 +1,5 @@
+//! HomeScreen Component
 import React from "react";
-/* import { Link } from "react-router-dom"; */
 import data from "../data";
 import CarouselSlide from "./Carasoul";
 import Row from "react-bootstrap/Row";
@@ -11,6 +11,7 @@ const HomeScreen = () => {
   return (
     <div>
       <CarouselSlide />
+      {/* //! Top Selling Products Are Imported Here */}
       <h1 className="text-center my-4"> Our Top Selling Products </h1>
       <div className="products">
         <Row>
@@ -19,7 +20,7 @@ const HomeScreen = () => {
               <Product product={product} />
             </Col>
           ))}
-          <Content />
+          <Content /> {/* //! Content Is Imported Here */}
         </Row>
       </div>
     </div>

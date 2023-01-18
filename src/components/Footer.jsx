@@ -1,3 +1,4 @@
+//! Footer Components
 import React from "react";
 import { MDBFooter } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
