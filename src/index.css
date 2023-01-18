@@ -14,17 +14,9 @@ main{
   margin: 1rem;
 }
 
-/* header{
-  background-color: #404040;
-  padding: 1rem;
-
+.banner-image img{
+ object-fit: cover;
 }
-
-header a{
-  color: #ffff;
-  font-weight: bold;
-  text-decoration: none;
-} */
 
 .products
 {
