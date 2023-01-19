@@ -1,18 +1,24 @@
 import React from "react";
+import data from "../data";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Sportlist from "../components/Sports/sports";
 
 const Sports = () => {
   return (
-    <div>
-      <h1>Heldesf</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
-        blanditiis rerum sunt aut unde accusantium hic excepturi nemo vitae in
-        placeat amet tempore temporibus deleniti, quam iusto mollitia omnis
-        iure! Magni consequuntur reiciendis ad harum recusandae fugiat qui nam
-        obcaecati alias, eligendi, cumque officia. Accusamus labore optio vero
-        cumque totam.
-      </p>
-    </div>
+    <main>
+      <h1 className="text-center my-4"> Our Top Selling Products </h1>
+      <div className="top-products">
+        <Row>
+          {data.topWears.map((sport) => (
+            <Col key={sport.slug} sm={6} md={4} lg={3} className="mb-3">
+              <Sportlist sport={sport} />
+            </Col>
+          ))}
+          {/* //! Content Is Imported Here */}
+        </Row>
+      </div>
+    </main>
   );
 };
 
