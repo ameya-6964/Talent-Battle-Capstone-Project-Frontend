@@ -47,11 +47,9 @@ const Cards = () => {
             It All
           </Card.Text>
           <div className="col-md-12 text-center">
-            <LinkContainer to="/BottomWear">
-              <Button type="button" className="btn btn-primary">
-                Explore
-              </Button>
-            </LinkContainer>
+            <Button type="button" className="btn btn-primary">
+              Explore
+            </Button>
           </div>
         </Card.Body>
       </Card>
@@ -69,11 +67,9 @@ const Cards = () => {
             Confortable Shoes, Budget Friendly And Exclusive Collections
           </Card.Text>
           <div className="col-md-12 text-center">
-            <LinkContainer to="Footwear">
-              <Button type="button" className="btn btn-primary">
-                Explore
-              </Button>
-            </LinkContainer>
+            <Button type="button" className="btn btn-primary">
+              Explore
+            </Button>
           </div>
         </Card.Body>
       </Card>
@@ -93,11 +89,9 @@ const Cards = () => {
             Designed To Tackle Your Any Sports Challenges
           </Card.Text>
           <div className="col-md-12 text-center">
-            <LinkContainer to="Sports">
-              <Button type="button" className="btn btn-primary">
-                Explore
-              </Button>
-            </LinkContainer>
+            <Button type="button" className="btn btn-primary">
+              Explore
+            </Button>
           </div>
         </Card.Body>
       </Card>

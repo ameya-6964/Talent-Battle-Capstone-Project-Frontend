@@ -6,6 +6,9 @@ import Container from "react-bootstrap/Container";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import TopWear from "./Screens/TopWear";
+import BottomWear from "./Screens/BottomWear";
+import FootWear from "./Screens/FootWear";
+import Sports from "./Screens/Sports";
 
 function App() {
   return (
@@ -16,7 +19,10 @@ function App() {
           <Routes>
             <Route path="/products/:slug" element={<ProductScreen />}></Route>
             <Route path="/" element={<HomeScreen />}></Route>
-            <Route path="/topWear" element={<TopWear />}></Route>
+            <Route path="/TopWear" element={<TopWear />}></Route>
+            <Route path="/BottomWear" element={<BottomWear />}></Route>
+            <Route path="/FootWear" element={<FootWear />}></Route>
+            <Route path="/Sports" element={<Sports />}></Route>
           </Routes>
         </Container>
       </main>

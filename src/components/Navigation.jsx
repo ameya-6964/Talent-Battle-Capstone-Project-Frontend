@@ -18,6 +18,15 @@ const Navigation = () => {
               <LinkContainer to="/TopWear">
                 <Nav.Link>Top Wear</Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/BottomWear">
+                <Nav.Link>Bottom Wear</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/FootWear">
+                <Nav.Link>Foot Wear</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/Sports">
+                <Nav.Link>Sports</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>
