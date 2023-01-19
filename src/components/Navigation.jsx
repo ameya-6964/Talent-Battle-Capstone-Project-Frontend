@@ -16,16 +16,19 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto md:mx-5 ">
-              <LinkContainer to="/TopWear">
+              <LinkContainer to="TopWear">
                 <Nav.Link>Top Wear</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/BottomWear">
+
+              <LinkContainer to="BottomWear">
                 <Nav.Link>Bottom Wear</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/Footwear">
+
+              <LinkContainer to="/FootWear">
                 <Nav.Link>Foot Wear</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/Sports">
+
+              <LinkContainer to="/">
                 <Nav.Link>Sports</Nav.Link>
               </LinkContainer>
             </Nav>
