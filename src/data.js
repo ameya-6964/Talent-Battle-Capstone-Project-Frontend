@@ -101,16 +101,16 @@ const data = {
 
   topWears: [
     {
-      name: "Nike Jordans",
-      slug: "shoes-jordans-1",
-      category: "Shoes",
-      image: "/images/jordyns.jpg",
-      price: "4200 INR",
+      name: "Solid Black Shirt",
+      slug: "top-shirt-solid-black-shirt",
+      category: "Top Wear",
+      image: "/images/top1.jpg",
+      price: "1450 INR",
       countInStock: 10,
       brand: "Nike",
       rating: 4.5,
       numReviews: 10,
-      description: "Classic Shoes Enrich With Richness",
+      description: "Solid Black Shirt To Match Any Outfit",
     },
     {
       name: "Nike Jordans",
