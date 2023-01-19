@@ -1,5 +1,4 @@
 import React from "react";
-//import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -16,20 +15,8 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto md:mx-5 ">
-              <LinkContainer to="TopWear">
+              <LinkContainer to="/TopWear">
                 <Nav.Link>Top Wear</Nav.Link>
-              </LinkContainer>
-
-              <LinkContainer to="BottomWear">
-                <Nav.Link>Bottom Wear</Nav.Link>
-              </LinkContainer>
-
-              <LinkContainer to="/FootWear">
-                <Nav.Link>Foot Wear</Nav.Link>
-              </LinkContainer>
-
-              <LinkContainer to="/">
-                <Nav.Link>Sports</Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>
