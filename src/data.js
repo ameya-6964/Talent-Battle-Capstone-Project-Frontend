@@ -102,7 +102,7 @@ const data = {
   topWears: [
     {
       name: "Nike Jordans",
-      slug: "shoes-jordans",
+      slug: "shoes-jordans-1",
       category: "Shoes",
       image: "/images/jordyns.jpg",
       price: "4200 INR",
@@ -114,7 +114,7 @@ const data = {
     },
     {
       name: "Nike Jordans",
-      slug: "shoes-jordans",
+      slug: "shoes-jordans-2",
       category: "Shoes",
       image: "/images/jordyns.jpg",
       price: "4200 INR",
@@ -126,7 +126,7 @@ const data = {
     },
     {
       name: "Nike Jordans",
-      slug: "shoes-jordans",
+      slug: "shoes-jordans-3",
       category: "Shoes",
       image: "/images/jordyns.jpg",
       price: "4200 INR",
@@ -138,7 +138,7 @@ const data = {
     },
     {
       name: "Nike Jordans",
-      slug: "shoes-jordans",
+      slug: "shoes-jordans-4",
       category: "Shoes",
       image: "/images/jordyns.jpg",
       price: "4200 INR",

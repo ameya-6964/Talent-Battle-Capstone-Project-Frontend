@@ -2,10 +2,11 @@
 
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Cards = () => {
   return (
-    <div className="col-md-10">
+    <div className="col-md-12">
       <Card>
         <Card.Img
           variant="top"
@@ -13,19 +14,20 @@ const Cards = () => {
           className="banner-image"
           height={400}
           width={300}
-          style={{ objectFit: "fill" }}
+          style={{ objectFit: "inital" }}
         />
         <Card.Body>
-          <Card.Title className="text-center blockquote">
-            Indian Traditional Wear
-          </Card.Title>
+          <Card.Title className="text-center blockquote">Top Wear</Card.Title>
           <Card.Text className="text-center">
-            Royal Western As Well As Tradtional Wear Available
+            All Kinds Of Top Wear From Casual Shirts To Formal Shorts, Indian
+            Traditional Wear and Suits are Also Part of Our Catalogue
           </Card.Text>
-          <div class="col-md-12 text-center">
-            <Button type="button" class="btn btn-primary">
-              Explore
-            </Button>
+          <div className="col-md-12 text-center">
+            <LinkContainer to="/TopWear">
+              <Button type="button" className="btn btn-primary">
+                Explore
+              </Button>
+            </LinkContainer>
           </div>
         </Card.Body>
       </Card>
@@ -39,14 +41,17 @@ const Cards = () => {
           style={{ objectFit: "fill" }}
         />
         <Card.Body>
-          <Card.Title className="text-center">Jeans</Card.Title>
+          <Card.Title className="text-center">Bottom Wear</Card.Title>
           <Card.Text className="text-center">
-            Top Quality Jeans For Casual And Formal Works
+            Form High Quality Jeans To High Quality Formal Trousers We Have Got
+            It All
           </Card.Text>
-          <div class="col-md-12 text-center">
-            <Button type="button" class="btn btn-primary">
-              Explore
-            </Button>
+          <div className="col-md-12 text-center">
+            <LinkContainer to="/BottomWear">
+              <Button type="button" className="btn btn-primary">
+                Explore
+              </Button>
+            </LinkContainer>
           </div>
         </Card.Body>
       </Card>
@@ -59,16 +64,16 @@ const Cards = () => {
           style={{ objectFit: "fill" }}
         />
         <Card.Body>
-          <Card.Title className="text-center blockquote">
-            Stylish Shoes
-          </Card.Title>
+          <Card.Title className="text-center blockquote">Footwear</Card.Title>
           <Card.Text className="text-center font-bold">
-            Confortable Shoes With Minimum 1 Year Warranty
+            Confortable Shoes, Budget Friendly And Exclusive Collections
           </Card.Text>
-          <div class="col-md-12 text-center">
-            <Button type="button" class="btn btn-primary">
-              Explore
-            </Button>
+          <div className="col-md-12 text-center">
+            <LinkContainer to="Footwear">
+              <Button type="button" className="btn btn-primary">
+                Explore
+              </Button>
+            </LinkContainer>
           </div>
         </Card.Body>
       </Card>
@@ -87,10 +92,12 @@ const Cards = () => {
           <Card.Text className="text-center font-bold">
             Designed To Tackle Your Any Sports Challenges
           </Card.Text>
-          <div class="col-md-12 text-center">
-            <Button type="button" class="btn btn-primary">
-              Explore
-            </Button>
+          <div className="col-md-12 text-center">
+            <LinkContainer to="Sports">
+              <Button type="button" className="btn btn-primary">
+                Explore
+              </Button>
+            </LinkContainer>
           </div>
         </Card.Body>
       </Card>

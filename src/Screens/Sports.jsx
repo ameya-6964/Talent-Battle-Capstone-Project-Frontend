@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card"; */
 
-const BottomWear = () => {
+const Sports = () => {
   return (
     <main>
       <h1 className="text-center"> Featured Top Wear </h1>
@@ -26,4 +26,4 @@ const BottomWear = () => {
   );
 };
 
-export default BottomWear;
+export default Sports;
