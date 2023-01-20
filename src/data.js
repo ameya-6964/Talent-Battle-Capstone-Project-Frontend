@@ -5,9 +5,9 @@ const data = {
       slug: "nike-Womens-jersey",
       category: "Shirts",
       image: "/images/nikeTshirt.jpg",
+      //? 679 x 829 px
       price: "1000 INR",
       countInStock: 10,
-      //? 679 x 829 px
       brand: "Nike",
       rating: 4.5,
       numReviews: 10,
