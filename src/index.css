@@ -51,3 +51,7 @@ a{
   text-decoration: none;
   color: black;
 }
+
+.product-screen{
+  min-height: 80.7vh;
+}
