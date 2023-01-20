@@ -1,8 +1,15 @@
 # MERN STACK E COMMERCE WEBSITE
 
+![2023-01-20 (1)](https://user-images.githubusercontent.com/104457295/213699616-76861401-1c2c-4bcc-bbc2-12250ff32a56.png)
+
+![2023-01-20 (5)](https://user-images.githubusercontent.com/104457295/213699821-0480870f-953a-4481-a4e3-bd607db336ec.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+
+
 
 In the project directory, you can run:
 
